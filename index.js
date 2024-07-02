@@ -16,8 +16,7 @@ app.use('/api',router)
 app.get('/',(req,res)=>{
     console.log("Holaaa")
     res.send('Bienvenidos a mi API´s');
-    )
-};
+});
 
 const PORT =process.env.PORT || 8000;
 console.log(`PORT: ${PORT}`);
