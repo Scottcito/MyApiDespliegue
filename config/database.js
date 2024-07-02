@@ -9,10 +9,11 @@ const db={
  */
 
 const db={
-    host:'myapiweb-7755.g8z.gcp-us-east1.cockroachlabs.cloud',
-    port:26257,
-    user:'david1',
-    password:'yO8sK2jk_YK-mF9Qf3eHMw',
-    database:'myapi',
+    host:'roundhouse.proxy.rlwy.net',
+    port:50985,
+    user:'root',
+    password:'MtIbdTpJMmDsgVxQADfNotIYGOIPXVsc',
+    database:'railway',
 }
+
 export default db
