@@ -10,12 +10,19 @@ const corsOption={
 //configuración de middleware
 app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json())
+app.use(cors(corsOption))
+app.use('/api',router)
 
-app.use('/api',cors(corsOption),router)
+app.get('/',(req,res)=>{
+    console.log("Holaaa")
+    res.send('Bienvenidos a mi API´s');
+    )
+};
 
-app.get('/',(req,res)=>res.send('Bienvenidos a mi API´s'))
+const PORT =process.env.PORT || 8000;
+console.log(`PORT: ${PORT}`);
 
-const server=app.listen(process.env.PORT || 8000,()=>{
+const server=app.listen(PORT,()=>{
     console.log(`Hola putes, servidor al pelo ¿Half o mareos? PD: estoy en el puerto: ${server.address().port}`)
 })
 
