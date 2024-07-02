@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "SET NODE_ENV=development && nodemon --exec babel-node index"
+    "start": "NODE_ENV=development && nodemon --exec babel-node index"
   },
   "author": "",
   "license": "ISC",
