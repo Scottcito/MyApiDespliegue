@@ -8,12 +8,22 @@ const db={
 }
  */
 
-const db={
+/* const db={
     host:'roundhouse.proxy.rlwy.net',
     port:50985,
     user:'root',
     password:'MtIbdTpJMmDsgVxQADfNotIYGOIPXVsc',
     database:'railway',
 }
-
+ */
+const db = {
+  client: 'mysql',
+  connection: {
+    host: 'roundhouse.proxy.rlwy.net',
+    port: 50985,
+    user: 'root',
+    password: 'MtIbdTpJMmDsgVxQADfNotIYGOIPXVsc',
+    database: 'railway',
+  },
+};
 export default db
