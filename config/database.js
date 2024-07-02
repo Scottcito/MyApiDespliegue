@@ -7,23 +7,12 @@ const db={
     database:'myapi',
 }
  */
-
-/* const db={
-    host:'roundhouse.proxy.rlwy.net',
-    port:50985,
+const db={
+    host:'viaduct.proxy.rlwy.net',
+    port:35295,
     user:'root',
-    password:'MtIbdTpJMmDsgVxQADfNotIYGOIPXVsc',
+    password:'WrKnVhIJFJrYOIsaNWURijhzKfmBOUIK',
     database:'railway',
 }
- */
-const db = {
-  client: 'mysql',
-  connection: {
-    host: 'roundhouse.proxy.rlwy.net',
-    port: 50985,
-    user: 'root',
-    password: 'MtIbdTpJMmDsgVxQADfNotIYGOIPXVsc',
-    database: 'railway',
-  },
-};
+ 
 export default db
